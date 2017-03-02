@@ -16,8 +16,8 @@ typedef union IOTHUB_IDENTITY_INFO_TAG IOTHUB_IDENTITY_INFO;
 
 typedef void* METHOD_HANDLE;
 
-#include "doublylinkedlist.h"
-#include "strings.h"
+#include "azure_c_shared_utility/doublylinkedlist.h"
+#include "azure_c_shared_utility/strings.h"
 #include "iothub_message.h"
 
 struct MESSAGE_DISPOSITION_CONTEXT_TAG;

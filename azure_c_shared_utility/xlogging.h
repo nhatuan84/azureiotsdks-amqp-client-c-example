@@ -10,8 +10,8 @@
 #include <stdio.h>
 #endif /* __cplusplus */
 
-#include "agenttime.h"
-#include "optimize_size.h"
+#include "azure_c_shared_utility/agenttime.h"
+#include "azure_c_shared_utility/optimize_size.h"
 
 #ifdef TIZENRT
 #undef LOG_INFO

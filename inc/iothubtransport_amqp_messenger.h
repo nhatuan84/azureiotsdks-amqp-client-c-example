@@ -4,8 +4,8 @@
 #ifndef IOTHUBTRANSPORT_AMQP_MESSENGER
 #define IOTHUBTRANSPORT_AMQP_MESSENGER
 
-#include "umock_c_prod.h"
-#include "optionhandler.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
+#include "azure_c_shared_utility/optionhandler.h"
 #include "azure_uamqp_c/session.h"
 #include "iothub_client_private.h"
 

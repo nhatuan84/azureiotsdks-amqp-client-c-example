@@ -4,9 +4,9 @@
 #ifndef STRING_TOKENIZER_H
 #define STRING_TOKENIZER_H
 
-#include "strings.h"
-#include "umock_c_prod.h"
-#include "string_tokenizer_types.h"
+#include "azure_c_shared_utility/strings.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
+#include "azure_c_shared_utility/string_tokenizer_types.h"
 
 #ifdef __cplusplus
 extern "C"

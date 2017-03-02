@@ -4,8 +4,8 @@
 #ifndef VECTOR_H
 #define VECTOR_H
 
-#include "crt_abstractions.h"
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/crt_abstractions.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 #ifdef __cplusplus
 #include <cstddef>
@@ -17,7 +17,7 @@ extern "C"
 #include <stdbool.h>
 #endif
 
-#include "vector_types.h"
+#include "azure_c_shared_utility/vector_types.h"
 
 /* creation */
 MOCKABLE_FUNCTION(, VECTOR_HANDLE, VECTOR_create, size_t, elementSize);

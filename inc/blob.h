@@ -13,8 +13,8 @@
 #ifndef BLOB_H
 #define BLOB_H
 
-#include "macro_utils.h"
-#include "buffer_.h"
+#include "azure_c_shared_utility/macro_utils.h"
+#include "azure_c_shared_utility/buffer_.h"
 
 #ifdef __cplusplus
 #include <cstddef>
@@ -24,7 +24,7 @@ extern "C"
 #include <stddef.h>
 #endif
 
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 #define BLOB_RESULT_VALUES \
     BLOB_OK,               \

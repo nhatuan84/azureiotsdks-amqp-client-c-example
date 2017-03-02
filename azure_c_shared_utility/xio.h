@@ -4,11 +4,11 @@
 #ifndef XIO_H
 #define XIO_H
 
-#include "optionhandler.h"
+#include "azure_c_shared_utility/optionhandler.h"
 
-#include "xlogging.h"
-#include "umock_c_prod.h"
-#include "macro_utils.h"
+#include "azure_c_shared_utility/xlogging.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
+#include "azure_c_shared_utility/macro_utils.h"
 
 #ifdef __cplusplus
 #include <cstddef>

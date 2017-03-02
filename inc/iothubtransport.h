@@ -7,8 +7,8 @@
 typedef struct TRANSPORT_HANDLE_DATA_TAG* TRANSPORT_HANDLE;
 
 
-#include "lock.h"
-#include "crt_abstractions.h"
+#include "azure_c_shared_utility/lock.h"
+#include "azure_c_shared_utility/crt_abstractions.h"
 
 #include "iothub_client_ll.h"
 #include "iothub_client_private.h"
@@ -19,7 +19,7 @@ typedef struct IOTHUB_CLIENT_INSTANCE_TAG* IOTHUB_CLIENT_HANDLE;
 #define IOTHUB_CLIENT_INSTANCE_TYPE
 #endif // IOTHUB_CLIENT_INSTANCE
 
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 #ifdef __cplusplus
 extern "C"
 {

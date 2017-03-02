@@ -4,9 +4,9 @@
 #ifndef IOTHUBTRANSPORTAMQP_COMMON_H
 #define IOTHUBTRANSPORTAMQP_COMMON_H
 
-#include "strings.h"
+#include "azure_c_shared_utility/strings.h"
 #include "iothub_transport_ll.h"
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -10,7 +10,7 @@
 extern "C" {
 #endif
 
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 MOCKABLE_FUNCTION(,int, x509_openssl_add_credentials, SSL_CTX*, ssl_ctx, const char*, x509certificate, const char*, x509privatekey);
 

@@ -6,12 +6,12 @@
 
 #include <signal.h>
 
-#include "constbuffer.h"
-#include "crt_abstractions.h"
-#include "doublylinkedlist.h"
-#include "macro_utils.h"
-#include "tickcounter.h"
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/constbuffer.h"
+#include "azure_c_shared_utility/crt_abstractions.h"
+#include "azure_c_shared_utility/doublylinkedlist.h"
+#include "azure_c_shared_utility/macro_utils.h"
+#include "azure_c_shared_utility/tickcounter.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 #include "iothub_message.h"
 #include "iothub_client_ll.h"

@@ -24,8 +24,8 @@ extern "C"
 #include <stdint.h>
 #endif
 
-#include "gballoc.h"
-#include "macro_utils.h"
+#include "azure_c_shared_utility/gballoc.h"
+#include "azure_c_shared_utility/macro_utils.h"
 
 #if defined(__STDC_VERSION__) && (__STDC_VERSION__ == 201112) && (__STDC_NO_ATOMICS__!=1)
 #define REFCOUNT_USE_STD_ATOMIC 1

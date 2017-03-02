@@ -11,8 +11,8 @@ extern "C" {
 #include <stddef.h>
 #endif /* __cplusplus */
 
-#include "xio.h"
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/xio.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 MOCKABLE_FUNCTION(, const IO_INTERFACE_DESCRIPTION*, tlsio_cyclonessl_get_interface_description);
 

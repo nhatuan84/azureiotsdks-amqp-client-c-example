@@ -4,7 +4,7 @@
 #ifndef OPTIONHANDLER_H
 #define OPTIONHANDLER_H
 
-#include "macro_utils.h"
+#include "azure_c_shared_utility/macro_utils.h"
 
 #define OPTIONHANDLER_RESULT_VALUES \
 OPTIONHANDLER_OK, \
@@ -17,7 +17,7 @@ DEFINE_ENUM(OPTIONHANDLER_RESULT, OPTIONHANDLER_RESULT_VALUES)
 extern "C" {
 #endif /* __cplusplus */
 
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 typedef struct OPTIONHANDLER_HANDLE_DATA_TAG* OPTIONHANDLER_HANDLE;
 

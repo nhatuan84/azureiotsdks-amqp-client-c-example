@@ -4,7 +4,7 @@
 #ifndef GB_RAND_H
 #define GB_RAND_H
 
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 #ifdef __cplusplus
 extern "C" {

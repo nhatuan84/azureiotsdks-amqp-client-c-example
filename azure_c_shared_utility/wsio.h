@@ -13,9 +13,9 @@ extern "C" {
 #include <stdbool.h>
 #endif /* __cplusplus */
 
-#include "xio.h"
-#include "xlogging.h"
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/xio.h"
+#include "azure_c_shared_utility/xlogging.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 typedef struct WSIO_CONFIG_TAG
 {

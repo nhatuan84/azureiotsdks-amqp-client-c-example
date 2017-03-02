@@ -4,7 +4,7 @@
 #ifndef TLSIO_MBEDTLS_H
 #define TLSIO_MBEDTLS_H
 
-#include "tls_config.h"
+#include "azure_c_shared_utility/tls_config.h"
 
 #ifdef USE_MBED_TLS
 
@@ -15,9 +15,9 @@ extern "C" {
 #include <stddef.h>
 #endif /* __cplusplus */
 
-#include "xio.h"
-#include "xlogging.h"
-#include "optionhandler.h"
+#include "azure_c_shared_utility/xio.h"
+#include "azure_c_shared_utility/xlogging.h"
+#include "azure_c_shared_utility/optionhandler.h"
 
 extern CONCRETE_IO_HANDLE tlsio_mbedtls_create(void* io_create_parameters);
 extern void tlsio_mbedtls_destroy(CONCRETE_IO_HANDLE tls_io);

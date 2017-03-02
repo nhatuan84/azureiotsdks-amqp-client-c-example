@@ -9,10 +9,10 @@
 #ifndef MAP_H
 #define MAP_H
 
-#include "macro_utils.h"
-#include "strings.h"
-#include "crt_abstractions.h"
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/macro_utils.h"
+#include "azure_c_shared_utility/strings.h"
+#include "azure_c_shared_utility/crt_abstractions.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 #ifdef __cplusplus
 #include <cstddef>

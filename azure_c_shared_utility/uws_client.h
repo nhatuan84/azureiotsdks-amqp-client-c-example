@@ -16,8 +16,8 @@ extern "C" {
 #endif
 
 #include "xio.h"
-#include "umock_c_prod.h"
-#include "optionhandler.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
+#include "azure_c_shared_utility/optionhandler.h"
 
 typedef struct UWS_CLIENT_INSTANCE_TAG* UWS_CLIENT_HANDLE;
 

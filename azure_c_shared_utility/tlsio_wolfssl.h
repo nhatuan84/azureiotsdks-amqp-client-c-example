@@ -11,9 +11,9 @@ extern "C" {
 #include <stddef.h>
 #endif /* __cplusplus */
 
-#include "xio.h"
-#include "xlogging.h"
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/xio.h"
+#include "azure_c_shared_utility/xlogging.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 MOCKABLE_FUNCTION(, CONCRETE_IO_HANDLE, tlsio_wolfssl_create, void*, io_create_parameters);
 MOCKABLE_FUNCTION(, void, tlsio_wolfssl_destroy, CONCRETE_IO_HANDLE, tls_io);

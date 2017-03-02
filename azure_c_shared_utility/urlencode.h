@@ -4,9 +4,9 @@
 #ifndef URLENCODE_H
 #define URLENCODE_H
 
-#include "strings.h"
+#include "azure_c_shared_utility/strings.h"
 
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 #ifdef __cplusplus
 extern "C" {

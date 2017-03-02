@@ -4,11 +4,11 @@
 #ifndef HTTPAPIEX_SAS_H
 #define HTTPAPIEX_SAS_H
 
-#include "strings.h"
-#include "buffer_.h"
-#include "httpheaders.h"
-#include "httpapiex.h"
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/strings.h"
+#include "azure_c_shared_utility/buffer_.h"
+#include "azure_c_shared_utility/httpheaders.h"
+#include "azure_c_shared_utility/httpapiex.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 #ifdef __cplusplus
 extern "C" {

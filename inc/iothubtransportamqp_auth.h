@@ -6,13 +6,13 @@
 
 #include <stdlib.h>
 #include <stdint.h>
-#include "strings.h" 
-#include "sastoken.h"
-#include "xio.h"
+#include "azure_c_shared_utility/strings.h" 
+#include "azure_c_shared_utility/sastoken.h"
+#include "azure_c_shared_utility/xio.h"
 #include "azure_uamqp_c/cbs.h"
 #include "azure_uamqp_c/sasl_mechanism.h"
 #include "iothub_transport_ll.h" 
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 #ifdef __cplusplus 
 extern "C" 

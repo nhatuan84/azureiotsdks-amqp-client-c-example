@@ -8,8 +8,8 @@
 extern "C" {
 #endif /* __cplusplus */
 
-#include "xio.h"
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/xio.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
     MOCKABLE_FUNCTION(, int, platform_init);
     MOCKABLE_FUNCTION(, void, platform_deinit);

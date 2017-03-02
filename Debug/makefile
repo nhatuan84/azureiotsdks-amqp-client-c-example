@@ -28,7 +28,7 @@ all: iot-client
 iot-client: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc -L"/home/tuan/workspace/iot-client/libs" -o "iot-client" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -L"../libs" -o "iot-client" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

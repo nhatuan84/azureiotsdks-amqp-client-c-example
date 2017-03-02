@@ -8,7 +8,7 @@
 extern "C" {
 #endif /* __cplusplus */
 
-#include "xlogging.h"
+#include "azure_c_shared_utility/xlogging.h"
 
     extern void consolelogger_log(LOG_CATEGORY log_category, const char* file, const char* func, const int line, unsigned int options, const char* format, ...);
 

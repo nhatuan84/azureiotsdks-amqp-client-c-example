@@ -9,7 +9,7 @@ extern "C" {
 #endif /* __cplusplus */
 
 #include "tls.h"
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 MOCKABLE_FUNCTION(, int, tlsio_cyclonessl_socket_create, const char*, hostname, unsigned int, port, TlsSocket*, new_socket);
 MOCKABLE_FUNCTION(, void, tlsio_cyclonessl_socket_destroy, TlsSocket, socket);

@@ -7,8 +7,8 @@
 #ifdef WIP_C2D_METHODS_AMQP /* This feature is WIP, do not use yet */
 
 #include "azure_uamqp_c/session.h"
-#include "buffer_.h"
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/buffer_.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 #ifdef __cplusplus
 #include <cstddef>

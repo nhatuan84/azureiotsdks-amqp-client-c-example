@@ -23,8 +23,8 @@
 #ifndef IOTHUB_CLIENT_LL_H
 #define IOTHUB_CLIENT_LL_H
 
-#include "macro_utils.h"
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/macro_utils.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 #define IOTHUB_CLIENT_RESULT_VALUES       \
     IOTHUB_CLIENT_OK,                     \
@@ -90,9 +90,9 @@ DEFINE_ENUM(IOTHUB_PROCESS_ITEM_RESULT, IOTHUB_PROCESS_ITEM_RESULT_VALUE);
 */
 DEFINE_ENUM(IOTHUBMESSAGE_DISPOSITION_RESULT, IOTHUBMESSAGE_DISPOSITION_RESULT_VALUES);
 
-#include "agenttime.h"
-#include "xio.h"
-#include "doublylinkedlist.h"
+#include "azure_c_shared_utility/agenttime.h"
+#include "azure_c_shared_utility/xio.h"
+#include "azure_c_shared_utility/doublylinkedlist.h"
 #include "iothub_message.h"
 #include "iothub_transport_ll.h"
 #include <stddef.h>

@@ -4,8 +4,8 @@
 #ifndef STRINGS_H
 #define STRINGS_H
 
-#include "umock_c_prod.h"
-#include "strings_types.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
+#include "azure_c_shared_utility/strings_types.h"
 
 #ifdef __cplusplus
 #include <cstddef>

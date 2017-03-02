@@ -9,9 +9,9 @@
 #ifndef IOTHUB_MESSAGE_H
 #define IOTHUB_MESSAGE_H
 
-#include "macro_utils.h"
-#include "map.h" 
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/macro_utils.h"
+#include "azure_c_shared_utility/map.h" 
+#include "azure_c_shared_utility/umock_c_prod.h"
 
 #ifdef __cplusplus
 #include <cstddef>

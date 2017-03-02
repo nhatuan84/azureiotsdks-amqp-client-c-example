@@ -27,7 +27,7 @@
 
 #include "iothub_client_ll.h"
 
-#include "umock_c_prod.h"
+#include "azure_c_shared_utility/umock_c_prod.h"
 #ifdef __cplusplus
 #include <cstddef>
 extern "C"
